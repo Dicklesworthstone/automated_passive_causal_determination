@@ -1,0 +1,40 @@
+[project]
+name = "automated_passive_causal_determination"
+version = "0.1.0"
+description = "Automated causal discovery from observational data using transformer models, XGBoost, and intelligent sampling strategies based on parsimony."
+authors = [{ name = "Dicklesworthstone", email = "your.email@example.com" }]
+license = {text = "MIT"}
+readme = "README.md"
+repository = "https://github.com/Dicklesworthstone/automated_passive_causal_determination"
+requires-python = ">=3.10,<3.13"
+
+dependencies = [
+    "numpy>=1.26.0",
+    "pandas>=2.2.1",
+    "jax[cpu]>=0.4.26",
+    "flax>=0.8.2",
+    "optax>=0.2.2",
+    "xgboost>=2.0.3",
+    "scipy>=1.12.0",
+    "scikit-learn>=1.4.1",
+    "httpx[http2]>=0.27.0",
+    "sqlite-utils>=3.36"
+]
+
+[tool.uv.pip]
+index-url = "https://pypi.org/simple"
+extra-index-urls = []
+
+[build-system]
+requires = ["uv"]
+build-backend = "uv.build"
+
+[tool.ruff]
+line-length = 120
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120
