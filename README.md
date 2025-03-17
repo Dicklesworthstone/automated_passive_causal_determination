@@ -10,7 +10,7 @@ The methodology employed here integrates advanced machine learning models (Trans
 
 This repository provides a complete pipeline—from downloading publicly available benchmark datasets, intelligently exploring potential causal relationships, modeling these relationships at scale, to inferring a final Directed Acyclic Graph (DAG) explicitly representing causal relationships with confidence scores.
 
-This project began as a free-form discussion (which you can read in its entirety [here](https://github.com/Dicklesworthstone/automated_passive_causal_determination/blob/main/gpt_45_discussion_and_project_creation.md) with OpenAI's ChatGPT-4.5 about causal inference, which organically turned into a discussion about how inadequate current causal methods are and what would be a better approach. While I conceived of the approach and the major outline of how it should work, GPT-4.5 translated that into code (with some prodding and coaxing by me). Consider this a first draft and a concrete instantiation of the basic underlying idea more than a final, working project.
+This project began as a free-form discussion (which you can read in its entirety [here](https://github.com/Dicklesworthstone/automated_passive_causal_determination/blob/main/gpt_45_discussion_and_project_creation.md)) with OpenAI's ChatGPT-4.5 about causal inference, which organically turned into a discussion about how inadequate current causal methods are and what would be a better approach. While I conceived of the approach and the major outline of how it should work, GPT-4.5 translated that into code (with some prodding and coaxing by me). Consider this a first draft and a concrete instantiation of the basic underlying idea more than a final, working project.
 
 ---
 
