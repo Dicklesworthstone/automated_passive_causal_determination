@@ -1,9 +1,5 @@
 # Automated Passive Causal Determination
 
-**Repository:** [https://github.com/Dicklesworthstone/automated_passive_causal_determination](https://github.com/Dicklesworthstone/automated_passive_causal_determination)
-
----
-
 ## Overview
 
 This project systematically tackles one of the most profound and practically important challenges in data science and statistical inference: **automatically determining causal relationships purely from observational (passive) data**.
