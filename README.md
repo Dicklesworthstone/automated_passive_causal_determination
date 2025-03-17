@@ -1,7 +1,3 @@
-Here's a **detailed and technically rich** `README.md` that fully encapsulates our extensive conversation, core insights, and motivation behind the creation of this package, oriented explicitly toward a technical audience.
-
----
-
 # Automated Passive Causal Determination
 
 **Repository:** [https://github.com/Dicklesworthstone/automated_passive_causal_determination](https://github.com/Dicklesworthstone/automated_passive_causal_determination)
@@ -165,5 +161,3 @@ MIT License.
 ## Acknowledgments
 
 - Inspired by and built upon extensive theoretical and practical discussions regarding the limitations of existing causal inference methods and the crucial role of parsimony and complexity considerations in scientific modeling.
-
----
