@@ -1,5 +1,7 @@
 # Automated Passive Causal Determination
 
+*(by Jeffrey Emanuel, 3/17/2025)*
+
 ## Overview
 
 This project systematically tackles one of the most profound and practically important challenges in data science and statistical inference: **automatically determining causal relationships purely from observational (passive) data**.
