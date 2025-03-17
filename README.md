@@ -12,8 +12,6 @@ This repository provides a complete pipeline—from downloading publicly availab
 
 This project began as a free-form discussion (which you can read in its entirety [here](https://github.com/Dicklesworthstone/automated_passive_causal_determination/blob/main/gpt_45_discussion_and_project_creation.md)) with OpenAI's ChatGPT-4.5 about causal inference, which organically turned into a discussion about how inadequate current causal methods are and what would be a better approach. While I conceived of the approach and the major outline of how it should work, GPT-4.5 translated that into code (with some prodding and coaxing by me). Consider this a first draft and a concrete instantiation of the basic underlying idea more than a final, working project.
 
----
-
 ## Motivation and Core Insight
 
 ### The Fundamental Challenge of Causality
@@ -36,8 +34,6 @@ Correct causal relationships significantly reduce the complexity needed to accur
 
 Hence, we propose **parsimony**—the principle that the simplest model achieving robust predictive accuracy likely captures true causal relationships—as a practical heuristic for causal inference.
 
----
-
 ## Practical Implementation
 
 To operationalize our theoretical insights, we developed an **automated causal discovery framework** integrating the following components:
@@ -51,8 +47,6 @@ This script asynchronously downloads and preprocesses publicly available benchma
 - **Rossmann Retail Sales dataset:** Promotions and store conditions directly affecting sales.
 
 These datasets are preprocessed using standard scaling, encoding categorical variables, removing problematic rows and columns, ensuring robust downstream analysis.
-
----
 
 ### 2. Automated Causal Discovery Pipeline (`automated_passive_causal_determination.py`)
 
@@ -83,8 +77,6 @@ The heart of this project, this script implements an innovative automated causal
 - **Database Storage (SQLite):**  
   All models, performance metrics, complexity measurements, and DAG inference results are transparently stored in a SQLite database, ensuring reproducibility and auditability.
 
----
-
 ### 3. Final Comprehensive Analysis (`automated_passive_causal_determination_final_analysis.py`)
 
 This script thoroughly examines and synthesizes the results from the modeling step. Its responsibilities include:
@@ -98,13 +90,9 @@ This script thoroughly examines and synthesizes the results from the modeling st
 - **Global DAG Synthesis:**  
   Integrating evidence across all top-performing models into a final inferred DAG with clear, probabilistic confidence scores for every inferred causal relationship.
 
----
-
 ### 4. Coordination Script (`coordination_script_for_automated_causal_discovery_process.py`)
 
 Finally, to streamline execution and reproducibility, we provide a coordination script that sequentially executes the above scripts, explicitly documenting each step through extensive logging messages. This script ensures a clear, reproducible causal discovery pipeline, explicitly echoing our initial motivation and deep theoretical reasoning behind each methodological choice.
-
----
 
 ## Installation and Usage
 
@@ -117,8 +105,6 @@ uv pip sync
 ```shell
 python coordination_script_for_automated_causal_discovery_process.py
 ```
-
----
 
 ## Summary of Core Contributions and Insights
 
@@ -138,25 +124,18 @@ To recap, our innovative automated causal determination framework is driven by s
 
 This project thus provides a comprehensive, innovative approach to automated causal discovery, explicitly addressing key limitations in classical methods (like do-calculus), leveraging modern machine learning techniques, and grounding theoretical insights in practical validation.
 
----
-
 ## Contributing and Future Work
 
 We welcome community contributions and further validation on additional datasets. Open issues, discussions, or PRs to continue improving the robustness, interpretability, and scalability of automated causal discovery techniques are highly encouraged.
-
----
 
 ## License
 
 MIT License.
 
----
-
 ## Authors
 
 - Jeffrey Emanuel ([GitHub](https://github.com/Dicklesworthstone))
-
----
+- GPT-4.5
 
 ## Acknowledgments
 
